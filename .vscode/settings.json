@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.tf": "terraform",
+        "*.tfvars": "terraform"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform"
+    }
+}
