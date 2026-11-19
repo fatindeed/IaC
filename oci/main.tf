@@ -12,7 +12,12 @@ terraform {
     }
   }
 
-  backend "oci" {}
+  backend "oci" {
+    bucket    = "tfstate"
+    namespace = "axs8o6eu329a"
+    region    = "ap-osaka-1"
+    key       = "oci/terraform.tfstate"
+  }
 }
 
 provider "oci" {
